@@ -1,0 +1,83 @@
+<style>
+.eve-song-section {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #000;
+    padding: 41px 20px 41px 0;
+    font: 400 40px Inter, sans-serif;
+}
+
+.song-description {
+    align-self: flex-end;
+}
+
+.character-image {
+    aspect-ratio: 0.72;
+    object-fit: contain;
+    object-position: center;
+    width: 527px;
+    margin-top: -319px;
+    max-width: 100%;
+}
+
+.novel-image {
+    aspect-ratio: 0.95;
+    object-fit: contain;
+    object-position: center;
+    width: 516px;
+    align-self: flex-end;
+    z-index: 10;
+    max-width: 100%;
+    margin: -329px 57px 0 0;
+}
+
+.background-image {
+    aspect-ratio: 3.73;
+    object-fit: contain;
+    object-position: center;
+    width: 701px;
+    max-width: 100%;
+    margin: -151px 0 0 68px;
+}
+
+@media (max-width: 991px) {
+    .song-description {
+        max-width: 100%;
+    }
+
+    .character-image {
+        margin-top: -200px;
+    }
+
+    .novel-image {
+        margin: -200px 10px 0 0;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+</style>
+
+<section class="eve-song-section">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/645fc5c8ecdb39b84e62c4d84627580540e889dcb2bc6b39edafacaeddd69012?placeholderIfAbsent=true&apiKey=b32fc964693f433481f2c981716ade49" alt="Character illustration from Eve's song" class="character-image">
+    <p class="song-description">
+        シンガーソングライターEveの 「いのちの食べ方」「ファイトソング」という <br>
+        楽曲の主人公、弟切飛。 <br>
+        また、小説化も果たしており、発行部数は十万部を突破。 <br>
+        異形の怪物と戦い、生き別れの兄を探す話。 <br>
+        <br>
+    </p>
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/73672e0c20f03e04631bb845e5d0ffed5413043125cd229e3dbc479bf02d8d48?placeholderIfAbsent=true&apiKey=b32fc964693f433481f2c981716ade49" alt="Novel cover illustration" class="novel-image">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/54756fa8d14c469c28eba23aefeb689591b5570d274da9579a02485f6d36e51d?placeholderIfAbsent=true&apiKey=b32fc964693f433481f2c981716ade49" alt="Background illustration" class="background-image">
+</section>
